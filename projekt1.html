@@ -1,35 +1,55 @@
-<!DOCTYPE html>
-<html lang="pl">
-
 <head>
-	<meta charset="UTF-8" />
-	<meta name="description" content="Opis strony" />
-	<meta name="author" content="Konrad Dudek" />
-	<title>Projekt 1</title>
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>Konrad Dudek</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Konrad Dudek">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
+<link rel="stylesheet" href="style.css">
 
 <body>
-	<div id="container">
-		<div id="header"><span id="konrad">Konrad Dudek </span></div>
-		<div id="navbar">
-			<a href="index.html">O mnie</a>
-			<a href="projekt1.html">Projekt 1</a>
-			<a href="projekt2.html">Projekt 2</a>
-			<a href="projekt3.html">Projekt 3</a>
-		</div>
-		<div id="main">
-			<div id="content">
-				<p id="akapit1">
-					Projekt 1
 
-				</p>
+	<!-- Header -->
+	<div class="header">
+		<h1>Konrad Dudek</h1>
+		<p>Strona <b>Konrada</b> Dudka</p>
+	</div>
+
+	<!-- Navigation Bar -->
+	<div class="navbar">
+		<ul id="menu">
+			<li><a href="index.html" title="Strona">Strona główna</a></li>
+			<li><a href="projekt1.html" style="border: green solid 3px;" title="Projekt numer 1">Projekt 1</a></li>
+			<li><a href="projekt2.html" title="Projekt numer 2">Projekt 2</a></li>
+			<li><a href="projekt3.html" title="Projekt numer 3">Projekt 3</a></li>
+			<li><a href="kontakt.html"title="Kontakt">Kontakt</a></li>
+		</ul>
+	</div>
+
+	<div class="row">
+
+		<!--Sidebar-->
+		<div class="sidebar">
+			<h2> O mnie </h2>
+			<span> Zdjęcie: </span>
+			<div class="fakeimg" style="height: 200px;">
+				Image
 			</div>
 		</div>
-		<div id="footer">
-			<span>Konrad Dudek 2020</span>
+
+		<!--MAIN-->
+		<div class="content">
+			<h2>Projekt 1</h2>
+			<p>Tekst &#129523;</p>
 		</div>
+
 	</div>
+
+	<!-- Footer -->
+	<div class="footer">
+		<span>Konrad Dudek &copy 2020</span>
+	</div>
+
 </body>
 
 </html>
