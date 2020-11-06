@@ -55,6 +55,12 @@ a:hover {
   padding: 20px;
 }
 
+.beginning {
+  flex: 30%;
+  background-color: #f1a3a3;
+  padding: 20px;
+}
+
 .content {
   flex: 70%;
   padding: 20px;
